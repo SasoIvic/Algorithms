@@ -1,0 +1,6 @@
+A: -5 2 3 2 -6 3 0 1      min=-6
+A:  1 8 9 8  0 9 6 7      ... vsem stevilom pristejemo 6 ... najvecje stevilo=9
+C: _ _ _ _ _ _ _ _ _ _    ... velikost polj 9+1=10
+C: 0 1 6 7 8 8 9 9
+         ... indeks 7 1x ... index 9 2x
+C:-6-5 0 1 2 2 3 3        ... odstejes 6

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523957011 source:c:\users\milan\desktop\algoritmi\6.quicksort\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

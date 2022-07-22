@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1526924751 source:c:\users\milan\desktop\algoritmi\9.minvpetadrevesa\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<cstdlib>
+	<fstream>
+

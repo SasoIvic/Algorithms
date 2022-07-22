@@ -1,0 +1,4 @@
+﻿  MrezeTokov.cpp
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\MrežeTokov\MrezeTokov\MrezeTokov\MrezeTokov.cpp(78,31): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\MrežeTokov\MrezeTokov\MrezeTokov\MrezeTokov.cpp(365): warning C4715: 'readFileWithRandom': not all control paths return a value
+  MrezeTokov.vcxproj -> C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\MrežeTokov\MrezeTokov\Debug\MrezeTokov.exe

@@ -1,0 +1,6 @@
+kako ugotovimo ce sta dve vozlisci soseda?
+
+graf predstavimo z matriko sosednjosti(2D polje);
+kjer se stolpec in vrstica sekata in je stevilo 1 se nahaja vozlisce grafa.
+
+pot od A do E izpises z rekurzijo (gres do zacetka, nato pa se pri vracanju nazaj izpises pravi vrstni red vozlisc)

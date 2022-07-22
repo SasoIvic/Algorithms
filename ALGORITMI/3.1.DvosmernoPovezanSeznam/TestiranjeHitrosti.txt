@@ -1,0 +1,24 @@
+10.000.000 elementov na zacetek seznama: 0,735 sekunde
+100.000 elementov na konec seznama: 16,547 sekund
+
+100.000 elementov na zacetek polja: 2,187 sekunde
+10.000.000 elementov na konec polja: 0,203 sekunde
+
+racunanje vsote 10000000 elementov iz seznama: 0,057 sekunde
+racunanje vsote 10000000 elementov iz polja: 0,047 sekunde
+
+
+
+
+
+Za vnos 10.000.000 elementov na zacetek seznama je potrebnih 0,719 sekunde, medtem ko 100 krat manj elementov na konec seznama vstavljamo kar 16,547 sekunde. 
+Razlog za to je, da mora pri vstavljanju na konec seznama kazalec na glavo vedno znova do konca seznama, da lahko vstavimo nov element.
+Ta problem bi lahko preprosto rešili, èe bi dodali kazalec se na konec seznama. V tem primeru bi vstavljanje na konec trajalo pribljizno enako casa kot vstavljanje na zacetek.
+
+Pri vstavljanju na konec polja je cas vsavljanja 10.000.000 elementov enak 0,015 sekunde, pri vstavljanju 100 krat manj elementov na zacetek polja pa traja dlje, in sicer 2,187 sekunde,
+ker se morajo ze vstavljeni elementi premakniti za eno mesto.
+
+Vstavljanje v konec polja je torej nekoliko hitrejse ker moramo pri seznamu ustvarjati objekte in premikati kazalce,
+pri polju pa le vstavljamo vrednosti v pomnilnik
+
+Racunanje vsote v polju je nekoliko hitrejse kot v seznamu, vndar pa se vrednosti ne razlikujeta veliko.

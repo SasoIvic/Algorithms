@@ -1,0 +1,19 @@
+Èasovne zahtevnosti:
+  -quick sort O(n*log2(n))
+  -quick sort brez mediane pri izrojenem drevesu O(n^2)
+  -boubble O(n^2)
+
+Pri urejanju nakljuènega zaporedja mediana nima velikega vpliva. 
+Pri urejanju urejenega zaporedja pa ima mediana velik vpliv na èas urejanja elementov.
+
+Pri quick sort urejanju brez mediane se program sesuje, èe urejamo veè kot 40000 urejenih podatkov.
+Program se sesuje zaradi velikega števila rekurzivnih klicev.
+
+Program se obnaša podobno pri podatkih urejenih v narašèajoèem ali padajoèem vrstnem redu, saj imamo 
+v obeh primerih izrojeno drevo podatkov.
+
+Pri quick sortu z mediano pa lahko uredimo tudi veè kot miljon podatkov.
+
+Èe urejamo števila tipa doouble (double x[10000]) in urejamo 10000 števil se program sesuje(stack overfow)
+To se zgodi zaradi tega ker tip double vecji in hitreje zapolni spomin. 
+Zaradi tega lahko urejamo le manjša polja stevil, kot naprimer 10 podatkov.

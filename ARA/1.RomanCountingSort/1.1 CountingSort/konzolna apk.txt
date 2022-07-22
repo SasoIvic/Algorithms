@@ -1,0 +1,15 @@
+Vnos preko aplikacije oziroma terminala:(how to parse command file parameters)
+-Program.exe argumen1 argument2...
+
+
+
+
+
+
+- int main(int argc, const char* argv[]){ // argumente dobiš preko teh atributov(št argumentov, polje argumentov)... za zgornji primer bo argc=3 
+
+	naša koda
+	dostopanje do argumentov ... argc[0] potem preberemo program.exe
+			 	 ... argc[1] nam da argument1 itd.
+  }
+

@@ -1,0 +1,11 @@
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\bin\Debug\netcoreapp3.0\GaussElimination.exe
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\bin\Debug\netcoreapp3.0\GaussElimination.deps.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\bin\Debug\netcoreapp3.0\GaussElimination.runtimeconfig.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\bin\Debug\netcoreapp3.0\GaussElimination.runtimeconfig.dev.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\bin\Debug\netcoreapp3.0\GaussElimination.dll
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\bin\Debug\netcoreapp3.0\GaussElimination.pdb
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\obj\Debug\netcoreapp3.0\GaussElimination.csprojAssemblyReference.cache
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\obj\Debug\netcoreapp3.0\GaussElimination.AssemblyInfoInputs.cache
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\obj\Debug\netcoreapp3.0\GaussElimination.AssemblyInfo.cs
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\obj\Debug\netcoreapp3.0\GaussElimination.dll
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\GaussElimination\GaussElimination\GaussElimination\obj\Debug\netcoreapp3.0\GaussElimination.pdb

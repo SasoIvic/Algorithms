@@ -1,0 +1,41 @@
+ÈASI TESTIRANJA(v nano sekundah):
+
+list: mini
+	iskani datum:	èas iskanja:	
+	20110427	 93683000	
+	20101001	 93704000	
+	19770103	 62525000
+	20110318         93776000
+	20140214	 78076000	
+
+povprecni cas iskanja:   84352800 = 0,084 sekunde
+____________________________________________________________
+list: mini_sorted
+	iskani datum:	èas iskanja:	
+	20110427	29638019000
+	20101001	27696512000
+	19770103	2609449000
+	20110318	29060853000
+	20140214	37752437000
+
+povprecni cas iskanja:  25351454000 = 25,35 sekunde
+____________________________________________________________
+list: full
+	iskani datum:	èas iskanja:	
+	20110427	 93703000	
+	20101001	 93703000
+	19770103	 78059000
+	20110318	 46825000	
+	20140214	 109382000
+
+povprecni cas iskanja:   84334400 = 0,084 sekunde
+____________________________________________________________	
+
+list: full_sorted ... javi napako po 5min nalaganja.
+	iskani datum:	èas iskanja:
+	20110427		
+	20101001		
+	19770103		
+	20080503		
+	20140214		
+povprecni cas iskanja:

@@ -1,0 +1,11 @@
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\bin\Debug\netcoreapp3.0\Simplex.exe
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\bin\Debug\netcoreapp3.0\Simplex.deps.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\bin\Debug\netcoreapp3.0\Simplex.runtimeconfig.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\bin\Debug\netcoreapp3.0\Simplex.runtimeconfig.dev.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\bin\Debug\netcoreapp3.0\Simplex.dll
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\bin\Debug\netcoreapp3.0\Simplex.pdb
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\obj\Debug\netcoreapp3.0\Simplex.csprojAssemblyReference.cache
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\obj\Debug\netcoreapp3.0\Simplex.AssemblyInfoInputs.cache
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\obj\Debug\netcoreapp3.0\Simplex.AssemblyInfo.cs
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\obj\Debug\netcoreapp3.0\Simplex.dll
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\Simplex\Simplex\Simplex\obj\Debug\netcoreapp3.0\Simplex.pdb

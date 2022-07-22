@@ -1,0 +1,11 @@
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\bin\Release\netcoreapp3.0\PrimeNumbers.exe
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\bin\Release\netcoreapp3.0\PrimeNumbers.deps.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\bin\Release\netcoreapp3.0\PrimeNumbers.runtimeconfig.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\bin\Release\netcoreapp3.0\PrimeNumbers.runtimeconfig.dev.json
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\bin\Release\netcoreapp3.0\PrimeNumbers.dll
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\bin\Release\netcoreapp3.0\PrimeNumbers.pdb
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\obj\Release\netcoreapp3.0\PrimeNumbers.csprojAssemblyReference.cache
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\obj\Release\netcoreapp3.0\PrimeNumbers.AssemblyInfoInputs.cache
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\obj\Release\netcoreapp3.0\PrimeNumbers.AssemblyInfo.cs
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\obj\Release\netcoreapp3.0\PrimeNumbers.dll
+C:\Users\sasoi\Documents\FERI\Magisterij\Izbrani algoritmi\PrimeNumbers\PrimeNumbers\obj\Release\netcoreapp3.0\PrimeNumbers.pdb

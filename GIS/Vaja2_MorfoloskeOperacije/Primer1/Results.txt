@@ -1,0 +1,33 @@
+OPEN:
+  * S = 1
+  * time = 4.61 sec
+  * iterations = 54
+
+  * S = 3
+  * time = 31.13 sec
+  * iterations = 382
+
+  * S = 5
+  * time = 129.00 sec
+  * iterations = 1586
+
+  * S = 11
+  * time = 126.14 sec
+  * iterations = 1544
+
+  * S = 21
+  * time = 135.25 sec
+  * iterations = 1540
+
+CLOSE:
+  * S = 1
+  * time = 5.49 sec
+  * iterations = 60
+
+  * S = 3
+  * time = 38.06 sec
+  * iterations = 469
+
+  * S = 5
+  * time = 60.22 sec
+  * iterations = 744

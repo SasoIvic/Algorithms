@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1525516130 source:c:\users\milan\desktop\algoritmi\8.iskanjeglobinoinsirino\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+

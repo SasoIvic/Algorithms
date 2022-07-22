@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1521573569 source:c:\users\milan\desktop\algoritmi\3.1dvosmernopovezanseznam\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<vector>
+

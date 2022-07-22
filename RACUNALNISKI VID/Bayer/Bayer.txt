@@ -1,0 +1,125 @@
+SPLOŠNO:
+- Zaèenjamo ob  8.00 -
+- Ko ni nove vaje se prisotnost ne preverja -
+- Vaje se vse zagovarjajo (po oddaji še lahko spreminjaš) -
+
+_______________________________________________
+1. vaja:
+Bayerjevi vzorci:
+-sliko sestvlja vzorec R G
+		       G B
+-HxWx1 ... imamo samo en kanal
+-G (zelena barva je 2x) ... ker smo bolj navajeni zelene barve iz narave :)
+
+Operacije nad slikami v Pythonu
+KODA(decimacija): 
+
+import numpy as np
+import matpltotlib.python as plt
+
+slika = (pit.imread("image.png")) * 255 .astype(np.uint8)
+plt.figure()
+plt.imshow(slika)
+
+def bayer_v_rgb(slika_bayer, vzorec, interpoliraj=False)
+
+#da ne pride do overlowa spremenimo v uint16
+slika_bayer = slika._bayer.astype(np.unit16)
+
+#od:do:skok, prazna pomeni vzami vse; najprej vrstice, potem stolpci, prvi je zraven zadnji pa ni
+#1.vrstica in preskakujemo da jemljemo vsako drugo vrstico , od zaèetka do konca jemljemo vsakega drugega in ravno dobimo vse g2
+g2 = slika_bayer[1::2,::2]
+
+#podobno za g ... od zaèetka do kona in dva skaèemo , od 1 stolpca do konca in skaèemo za 2
+g = slika_bayer[::2,1::2]
+
+#podobno naredi še za b in r
+
+#nova = ((W, H, 3),npuint16)   ... naredimo novo sliko width,height, ... delimo z 2, ker pri decimaciji dobimo dvakrat manjšo sliko
+nova = np.zeros((int(slika_bayer.shape[0]/2), int(slika_bayer.shape[1]/2, 3), np.uint16))
+
+#nastavimo rdeèi kanal v novi sliki
+nova[:,:,0] = r
+#zeleni kanal, deljenje cele matrike z 2 ... nastavimo zeleno
+nova[:,:,1] = (g1 + g2) / 2
+# še modri kanal ...
+nova[:,:,2] = b
+
+#spremenimo tip v uint8
+nova = nova.astype(no.unit8)
+
+______________________________________________
+
+
+Decimacija:
+-gre iz wXhX1 V W/2XH/2x3
+
+Interpolacija:
+-dobis v originalno velikost
+-gre iz wxhx1 v wxhx3
+-notranji del slike posebaj in rob posebaj (ker rob nima enako narete okolice)
+
+  r g r
+  g B g  -> gledamo b in vzamemo njegovo vrednost, ostali pa so njegova okolica, rdeèe povpreèimo in zelene povpreèimo
+  r g r
+
+  g r g
+  b G b -> povpreèimo rdeèo in povpreèimo modro, od zelenega pa vzamemo samo sredinsko (posebni primer)
+  g r g
+
+  r g
+  G b -> za rob imamo ta primer; za r povpreèimo rdeèe za G gledamo samo izbranega, moder pa je samo en tak da vzamemo njegovo vr
+  r g
+	
+
+za notranje B pixsle(primer 1 zgoraj):
+n ... nova slika
+b ... bayerjev vzorec
+
+#PRIMERI ZA NOTRANJOST:
+#konkretno za notranje(brez roba) pixle modre pri vzorcu RGGB za rdeè kanal na istoležnih pixlih na konèni sliki
+#od prve dalje, zadnje pa ne upoštevamo, skaèemo za 2 , stolpci: enalo vsaki drugi, zadnjega pa ne gledamo ker se upošteva pri robu , nastavimo 0 kanal (rdeèi)
+n[1:-1:2, 1:-1:2,0] = 
+(b[:-2:2, :-2:2] +    ...zgoraj levo
+b[2::2, 2::2] +       ...spodaj desno
+b[:-2:2, 2::2] +      ...zgoraj desno
+b[2::2, :-2:2])/4     ...spodaj levo
+
+#drugi primer ... za moder kanal zato je na koncu 3 ... rabimo samo B na sredini
+n[1:-1:2, 1:-1:2,2] = (b[1:-1:2, 1:-1:2])
+
+
+
+KO MAŠ ENEGA NARETEGA:
+-R G 
+ G B
+
+-z zrcaljenjem prvega po obeh oseh dobimo drugega
+-za 3 dobimo zrceljenje po eni osi
+-in za 4 zrcaljenje po 2 osi 
+v kodi: 
+n=n[::-1,::-1] ... zrcali èez obe osi ... v BGGR
+
+
+KODA(interpolacija)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

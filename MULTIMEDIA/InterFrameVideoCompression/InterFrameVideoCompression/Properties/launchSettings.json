@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "InterFrameVideoCompression": {
+      "commandName": "Project",
+      "commandLineArgs": "d 6"
+    }
+  }
+}

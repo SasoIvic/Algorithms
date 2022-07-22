@@ -1,0 +1,48 @@
+besedilo:   ABC ABCDAB ABCDABCDABDE
+iskani niz: ABCDABD
+
+
+i...           0 1 2 3 4 5 6
+fail value... -1 0 0 0 0 1 2
+
+-greš skozi besedilo in iskalni niz in primerjas crke!
+-pri crki D pride do napake ... napaka na poziciji 3, fail(3)=0, jump by 3-0=3
+
+besedilo:   ABC ABCDAB ABCDABCDABDE
+iskani niz:    ABCDABD
+
+-pri A je napaka...pozicija 0, fail(0)=-1, jump by 0-(-1)=1
+
+
+besedilo:   ABC ABCDAB ABCDABCDABDE
+iskani niz:     ABCDABD
+
+-pri zadnjem D je napaka...pozicija 6... fail(6)=2, jump 6-2=4
+
+besedilo:   ABC ABCDAB ABCDABCDABDE
+iskani niz:         ABCDABD
+
+...
+...
+...
+
+besedilo:   ABC ABCDAB ABCDABCDABDE
+iskani niz:                ABCDABD
+
+Na vseh pozicijah je iskani niz enak besedilu. Nasli smo ujemanje
+
+...............................................................
+i  0123456
+niz abababc
+
+
+FT[1]- a maches, break fund at b P[1]... strins that stil continue to mach after the shift is 0. ... FT[1]=0
+FT[2]- ab maches, brak at a P[2]... we haf sufix ab that maches proper prefix ab?NO so length of the string that sill mach is 0. FT[2]=0
+FT[3]-aba maches, break at b P[3] do we have proper sufix that maches proper prefix of aba?YES('a')... so length of string still continue to mach after the shift is 1 FT[3]=1
+FT[4]-abab Break found at 'a' (P[4]). Do we have a proper suffix of 'abab' which matches the proper prefix of 'abab'? Ans is YES('ab'). So length of the String which still continues to match after the shift is 2. Hence FT[4] = 2.
+.... torej pri zadnjem ce todas enega od zgornjih naprimer 'ab' je se vedno ujemanje...ker sta tukaj 2 crki torej ab je FT=2
+FT[5] - 'ababa' matches with text. Break found at 'b' (P[5]). Do we have a proper suffix of 'ababa' which matches the proper prefix of 'ababa'? Ans is YES('aba'). So length of the String which still continues to match after the shift is 3. Hence FT[5] = 3.
+
+FT[6] - 'ababab' matches with text. Break found at 'a' (P[6]). Do we have a proper suffix of 'ababab' which matches the proper prefix of 'ababab'? Ans is YES('abab'). So length of the String which still continues to match after the shift is 4. Hence FT[6] = 4.
+
+FT[7] - 'abababc' matches with text. No break found at all, Pattern matched with the text. Do we have a proper suffix of 'abababc' which matches the proper prefix of 'abababc'? Ans is NO. So length of the String which still continues to match after the shift is 0. Hence FT[7] = 0.
